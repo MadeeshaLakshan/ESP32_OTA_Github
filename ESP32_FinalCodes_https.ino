@@ -8,10 +8,10 @@ const char* ssid = "Dialog 4G 044";
 const char* wifiPassword = "c0Deb7c5";
 int status = WL_IDLE_STATUS;
 
-String FirmwareVer = "1.0.0";
+String FirmwareVer = "1.0.1";
 //https://raw.githubusercontent.com/MadeeshaLakshan/ESP32-Automatic-OTA-No-cert/refs/heads/main/version.txt
-#define URL_fw_Version "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32-Automatic-OTA-No-cert/refs/heads/main/version.txt"
-#define URL_fw_Bin "https://raw.githubusercontent.com/AhmadMahi/QuibbleUpdate/master/Quibbleupdate/fw.bin"
+#define URL_fw_Version "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/refs/heads/main/version.txt"
+#define URL_fw_Bin "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/main/build/esp32.esp32.esp32/ESP32_FinalCodes_https.ino.bin"
 
 unsigned long previousMillis = 0;  // will store last time update was checked
 const long interval = 5000;        // interval at which to check for updates (milliseconds)
