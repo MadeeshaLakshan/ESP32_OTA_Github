@@ -8,8 +8,7 @@ const char* ssid = "Dialog 4G 044";
 const char* wifiPassword = "c0Deb7c5";
 int status = WL_IDLE_STATUS;
 
-String FirmwareVer = "1.0.1";
-//https://raw.githubusercontent.com/MadeeshaLakshan/ESP32-Automatic-OTA-No-cert/refs/heads/main/version.txt
+String FirmwareVer = "1.0.2";
 #define URL_fw_Version "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/refs/heads/main/version.txt"
 #define URL_fw_Bin "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/main/build/esp32.esp32.esp32/ESP32_FinalCodes_https.ino.bin"
 
