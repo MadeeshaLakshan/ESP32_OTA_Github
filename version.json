@@ -1,4 +1,4 @@
 {
     "version": "1.0.1",
-    "bin_url": "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/main/build/esp32.esp32.esp32/ESP32_FinalCodes_https.ino.bin"
+    "bin_url": "https://raw.githubusercontent.com/MadeeshaLakshan/ESP32_OTA_Github/main/build/esp32.esp32.esp32/fw.bin"
 }
